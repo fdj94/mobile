@@ -1,0 +1,27 @@
+{
+  "name": "mobile",
+  "version": "0.0.1",
+  "description": "my first npm repsitory",
+  "main": "index.js",
+  "scripts": {
+    "test": "https://github.com/fdj94/mobile.git"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fdj94/mobile.git"
+  },
+  "keywords": [
+    "mobile"
+  ],
+  "author": "myself",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/fdj94/mobile/issues"
+  },
+  "homepage": "https://github.com/fdj94/mobile#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-imagemin": "^3.0.3",
+    "gulp-uglify": "^2.0.0"
+  }
+}
