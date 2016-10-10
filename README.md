@@ -29,7 +29,7 @@ cd进入当前项目，然后在cmd命令行中使用npm init，根据提示一�
 ## 安装并使用构建工具gulp
 
 1. `npm install gulp -- save-dev`通过npm安装gulp构建工具，并且添加为开发环境的依赖
-2. 创建gulpfile.js文件至目标根目录，仿照gulp所在的github仓库提供的RENAME.md进行编辑图片压缩，js压缩以及stylus编译并压缩和监听文件变化的任务
+2. 创建gulpfile.js文件至目标根目录，仿照gulp所在的github仓库提供的RENAME.md进行编辑图片压缩，js压缩以及stylus编译并压缩和监听文件变化的任务（一般是这3个常用开发工具模块）
 3. `npm install 开发工具模块名称 --save-dev`安装gulpfile.js中所需要的开发模块的依赖
 4. `npm install gulp -g`全局安装gulp使之成为一个可被cmd命令行执行的软件(只需要安装一遍即可，电脑里面有了gulp就行)
 5. cmd命令行执行gulp
@@ -37,9 +37,9 @@ cd进入当前项目，然后在cmd命令行中使用npm init，根据提示一�
 ## 将本地初始化好的整个项目通过git推送至远程代码仓库
 
 1. 打开git shell命令行
-2. `git pull`将远程代码仓库中修改的内容同步拉取到本地代码仓库
-3. `git add *`将项目中的所有未被.gitignore的文件添加至即将上传至本地仓库的缓冲区
-4. `git status`查看缓冲区的即将上传的文件
-5. （\*）`git reset`如果发现`git add`操作添加有误，可以使用此命令回退
-6. `git commit -m "this is my first mobile project"`提交代码到本地并且必须书写注释，否则无法提交
+2. `git add *`将项目中的所有未被.gitignore的文件添加至即将上传至本地仓库的缓冲区
+3. `git status`查看缓冲区的即将上传的文件
+4. （\*）`git reset`如果发现`git add`操作添加有误，可以使用此命令回退
+5. `git commit -m "this is my first mobile project"`提交代码到本地并且必须书写注释，否则无法提交
+6. 	(\*)`git pull`如果远程代码仓库进行了修改，才需要将远程代码仓库中修改的内容同步拉取到本地代码仓库
 7. `git push` 提交代码至远程代码仓库
