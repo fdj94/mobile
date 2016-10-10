@@ -32,7 +32,7 @@ cd进入当前项目，然后在cmd命令行中使用npm init，根据提示一�
 2. 创建gulpfile.js文件至目标根目录，仿照gulp所在的github仓库提供的RENAME.md进行编辑图片压缩，js压缩以及stylus编译并压缩和监听文件变化的任务
 3. `npm install 开发工具模块名称 --save-dev`安装gulpfile.js中所需要的开发模块的依赖
 4. `npm install gulp -g`全局安装gulp使之成为一个可被cmd命令行执行的软件
-5. cmd命令j行执行gulp
+5. cmd命令行执行gulp
 
 ## 将本地初始化好的整个项目通过git推送至远程代码仓库
 
