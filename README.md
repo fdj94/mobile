@@ -26,7 +26,7 @@ cd进入当前项目，然后在cmd命令行中使用npm init，根据提示一�
 
 忽略一些不必要提交到代码仓库中的开发环境代码，比如“node_modules”文件夹以及开发环境文件夹“develop”是不需要提交到代码仓库中，则可以将这两个文件夹名称分行添加到.gitignore中
 
-## 安装并使用构建工具gulp
+## 安装并使用构建工具gulp(只需要安装一遍即可，电脑里面有了gulp就行)
 
 1. `npm install gulp -- save-dev`通过npm安装gulp构建工具，并且添加为开发环境的依赖
 2. 创建gulpfile.js文件至目标根目录，仿照gulp所在的github仓库提供的RENAME.md进行编辑图片压缩，js压缩以及stylus编译并压缩和监听文件变化的任务
